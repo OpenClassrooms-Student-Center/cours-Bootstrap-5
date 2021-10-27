@@ -1,0 +1,108 @@
+@-webkit-keyframes showwindow {
+  0% {
+    object-position: top;
+  }
+  50% {
+    object-position: bottom;
+  }
+  100% {
+    object-position: top;
+  }
+}
+
+@keyframes showwindow {
+  0% {
+    -o-object-position: top;
+       object-position: top;
+  }
+  50% {
+    -o-object-position: bottom;
+       object-position: bottom;
+  }
+  100% {
+    -o-object-position: top;
+       object-position: top;
+  }
+}
+
+.dot-effect {
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+}
+
+.dot-effect::before {
+  content: "";
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>');
+  background-position: 0% 0%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.2;
+  top: 40px;
+  right: 40px;
+  height: 100%;
+  width: 100%;
+}
+
+h2.dot-effect {
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+}
+
+h2.dot-effect::before {
+  content: "";
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>');
+  background-position: top;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.2;
+  top: 20px;
+  right: 20px;
+  height: 80%;
+  width: 100%;
+}
+
+.carousel .carousel-item {
+  position: relative;
+  z-index: 15;
+}
+
+.carousel .carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 16;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.carousel * {
+  z-index: 17;
+}
+
+.img-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 250px;
+}
+
+.card img.card-img-top {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 400px;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.card img.card-img-top:hover {
+  -webkit-animation: showwindow 3s infinite;
+          animation: showwindow 3s infinite;
+}
+
+.card img.card-img-top:hover.mobile-view {
+  -webkit-animation: showwindow 12s infinite;
+          animation: showwindow 12s infinite;
+}
