@@ -37,7 +37,7 @@ Bienvenue dans le Github du projet fil rouge "Portfolio" associé au [cours Open
 
 ## Solutions des exercices
 
-Toutes les étapes (par chapitre) du projet fil rouge sont accessibles via ce lien : [solutions](https://lukadabra.github.io/Cours-Bootstrap-5.0/index.html)
+Toutes les étapes (par chapitre) du projet fil rouge sont accessibles via ce lien : [solutions](https://openclassrooms-student-center.github.io/cours-Bootstrap-5/)
 
 ## Contributing
 
