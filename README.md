@@ -6,32 +6,31 @@ Bienvenue dans le Github du projet fil rouge "Portfolio" associé au [cours Open
 
 ## Sommaire
 
-- Partie 1 :
-  - Chapitre 1 : 
-  - Chapitre 2 :
-  - Chapitre 3 :
-  - Quizz
-- Partie 2 :
-  - Chapitre 1 : 
-  - Chapitre 2 :
-  - Chapitre 3 :
-  - Quizz
-- Partie 3 :
-  - Chapitre 1 : 
-  - Chapitre 2 :
-  - Chapitre 3 :
-  - Chapitre 4 :
-  - Quizz
-- Partie 4 :
-  - Chapitre 1 : 
-  - Chapitre 2 :
-  - Chapitre 3 :
-  - Quizz
-- Partie 5 :
-  - Chapitre 1 : 
-  - Chapitre 2 :
-  - Chapitre 3 :
-  - Quizz
+- Partie 1
+  - Chapitre 1 : Tirez un maximum de ce cours
+  - Chapitre 2 : Découvrez l’importance du mobile dans les pratiques des internautes
+  - Chapitre 3 : Découvrez si Bootstrap correspond à vos besoins
+  - Quizz : Identifier les cas d'usage de Bootstrap
+- Partie 2
+  - Chapitre 1 : Décomposez la structure des pages
+  - Chapitre 2 : Implémentez votre structure de pages
+  - Chapitre 3 : Rendez votre mise en page responsive
+  - Quizz : Créer des mises en page responsives
+- Partie 3
+  - Chapitre 1 : Personnalisez votre page
+  - Chapitre 2 : Créez de la navigation responsive
+  - Chapitre 3 : Ajoutez le composant progress bar
+  - Chapitre 4 : Structurez du contenu grâce au composant card
+  - Quizz : Afficher du contenu avec les composants d'interface utilisateur
+- Partie 4
+  - Chapitre 1 : Ajoutez des composants interactifs
+  - Chapitre 2 : Permettez à vos visiteurs de vous contacter grâce aux formulaires
+  - Chapitre 3 : Améliorez l’expérience utilisateur avec une modal et les tooltips
+  - Quizz : Ajouter de l'interactivité à votre site
+- Partie 5
+  - Chapitre 1 : Créez votre propre thème de conception
+  - Chapitre 2 : Créez vos propres classes utilitaires grâce à l’API de Bootstrap 5
+  - Quizz : Créer des fonctionnalités et des thèmes personnalisés
 
 > ### Félicitations 🎉 ! Vous avez terminé le cours Bootstrap 5
 
